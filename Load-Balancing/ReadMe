@@ -1,0 +1,9 @@
+(Create a WebApp with region as East US 
+Create a WebApp with region as West Europe
+Disable application insight for both web apps 
+Create a Traffic manager profile
+Set Routing method to Priority
+Add Traffic Manager End Point (target resource should be App Service) 
+Set priority of East Us as 1 and West Europe as 2 
+Browse traffic manager DNS first and then Disable Primary end point based on East US. 
+Check if all request is redirect to West Europe.)
