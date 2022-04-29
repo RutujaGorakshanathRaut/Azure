@@ -1,1 +1,23 @@
+Azure Storage account
+Get the storage account name
+Create a blob container
+  In the New container dialog box, enter adftutorial for the name, and then select OK. The <Account name> - Containers page is updated to include adftutorial in the list of containers.
+ Add an input folder and file for the blob container 
+ 
+ Create a data factory
+ Create a linked service
+ Create datasets
+  Select Author tab from the left pane.
 
+  Select the + (plus) button, and then select Dataset.
+
+Create a pipeline
+
+  In the Activities toolbox, expand Move & Transform. Drag the Copy Data activity
+  from the Activities toolbox to the pipeline designer surface. You can also search for 
+  activities in the Activities toolbox. Specify CopyFromBlobToBlob for Name.
+  
+  Debug the pipeline
+  Trigger the pipeline 
+  Monitor the pipeline
+  Trigger the pipeline on a schedule
